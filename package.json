@@ -10,17 +10,44 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*"
 	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.launchWebView",
+				"title": "Configure Headlines"
+            },
+            {
+				"command": "extension.addExplorerViews",
+				"title": "Start Headlines"
+            },
+            {
+				"command": "extension.removeExplorerViews",
+				"title": "Stop Headlines"
 			}
-		]
-	},
+		],
+        "views" : {
+            "explorer": [
+                {
+                    "id" : "headlines1",
+                    "name" : "Tech Headlines",
+                    "when" : "headlinesEnabled"
+                },
+                {
+                    "id" : "headlines2",
+                    "name" : "Science Headlines",
+                    "when" : "headlinesEnabled"
+                },
+                {
+                    "id" : "headlines3",
+                    "name" : "Music Headlines",
+                    "when" : "headlinesEnabled"
+                }
+            ]
+        }
+    },
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
@@ -38,5 +65,8 @@
 		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
+    },
+    "dependencies": {
+		"axios": "^0.19.0"
 	}
 }

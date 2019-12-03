@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Danny Crichton",
+            "title": "Gift Guide: TechCrunch writers recommend their favorite reads from 2019",
+            "description": "2019 offered a blistering catalog of books to peruse, on top of the prodigious publishing schedules of the past few years (if you think we are at Peak TV, you might want to check out your local bookstore for a counterpoint). We already checked in with Extra C…",
+            "url": "https://techcrunch.com/2019/12/03/giftguidetechcrunch-writers-recommend-their-favorite-reads-from-2019/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/11/GettyImages-954716974.jpg?w=600",
+            "publishedAt": "2019-12-03T22:15:54Z",
+            "content": "2019 offered a blistering catalog of books to peruse, on top of the prodigious publishing schedules of the past few years (if you think we are at Peak TV, you might want to check out your local bookstore for a counterpoint).\r\nWe already checked in with Extra … [+16790 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Anthony Ha",
+            "title": "Google CEO Sundar Pichai is taking over as CEO of Alphabet, too",
+            "description": "Google co-founders Larry Page and Sergey Brin just announced that Google CEO Sundar Pichai will be replacing Page as the CEO of parent company Alphabet. It also sounds like Brin is stepping down from his role as Alphabet’s president. Alphabet first came into …",
+            "url": "https://techcrunch.com/2019/12/03/sundar-pichai-alphabet-ceo/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/12/GettyImages-1071785212.jpg?w=600",
+            "publishedAt": "2019-12-03T21:45:50Z",
+            "content": "Google co-founders Larry Page and Sergey Brin just announced that Google CEO Sundar Pichai will be replacing Page as the CEO of parent company Alphabet.\r\nIt also sounds like Brin is stepping down from his role as Alphabet’s president.\r\nAlphabet first came int… [+874 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Darrell Etherington",
+            "title": "An investor's perspective on the current state of the global space startup industry",
+            "description": "Global aerospace and defense accelerator Starburst shared a deck that outlines trending opportunities the company sees in terms of the industry’s development.",
+            "url": "https://techcrunch.com/2019/12/03/an-investors-perspective-on-the-current-state-of-the-global-space-startup-industry/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-1057994512.jpg?w=559",
+            "publishedAt": "2019-12-03T21:08:19Z",
+            "content": "Investment in space startups is significant and growing, and the opportunities available to commercial players in space exploration, research and industrialization are multiplying. But for non-expert investors and observers, these opportunities can seem obtus… [+2099 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Darrell Etherington",
+            "title": "NASA will launch a 'robot hotel' to the Space Station on its next SpaceX resupply mission",
+            "description": "NASA is going to be sending something it calls a ‘robot hotel’ to the International Space Station aboard the next commercial resupply mission, which is set to launch aboard a SpaceX Falcon 9 rocket this week. The robot hotel is more formally known as the “Rob…",
+            "url": "https://techcrunch.com/2019/12/03/nasa-will-launch-a-robot-hotel-to-the-space-station-on-its-next-spacex-resupply-mission/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/rits_in_nbl.png?w=600",
+            "publishedAt": "2019-12-03T20:49:53Z",
+            "content": "NASA is going to be sending something it calls a ‘robot hotel’ to the International Space Station aboard the next commercial resupply mission, which is set to launch aboard a SpaceX Falcon 9 rocket this week. The robot hotel is more formally known as the “Rob… [+1214 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Danny Crichton",
+            "title": "Gift Guide: 12 must-read books for 2019 as recommended by Extra Crunch readers",
+            "description": "Books are fundamentally about stories, and 2019 (and really, the past decade) has been the story of technology’s domination of every industry and function of society. Founders and tech executives are more powerful than ever, and how we use that power for good…",
+            "url": "https://techcrunch.com/2019/12/03/gift-guide-12-must-read-books-for-2019-as-recommended-by-extra-crunch-readers/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/11/GettyImages-1158990325.jpg?w=600",
+            "publishedAt": "2019-12-03T20:46:07Z",
+            "content": "Books are fundamentally about stories, and 2019 (and really, the past decade) has been the story of technologys domination of every industry and function of society. Founders and tech executives are more powerful than ever, and how we use that power for good … [+18209 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Darrell Etherington",
+            "title": "OrbitsEdge partners with HPE on orbital datacenter computing and analytics",
+            "description": "What kinds of businesses might be able to operate in space? Well datacenter are one potential target you might not have thought of. Space provides an interesting environment for datacenter operations, including advanced analytics operations and even artificia…",
+            "url": "https://techcrunch.com/2019/12/03/orbitsedge-partners-with-hpe-on-orbital-datacenter-computing-and-analytics/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/crw-3360h-1900a-cc.jpeg?w=707",
+            "publishedAt": "2019-12-03T20:24:33Z",
+            "content": "What kinds of businesses might be able to operate in space? Well datacenter are one potential target you might not have thought of. Space provides an interesting environment for datacenter operations, including advanced analytics operations and even artificia… [+1670 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Ron Miller",
+            "title": "AWS launches new local zone in LA",
+            "description": "AWS announced a new local zone today in LA, designed to provide customers in southern California with a set of higher bandwidth, lower latency compute resources. It’s not a coincidence that this area is the epicenter of the entertainment industry. Having a lo…",
+            "url": "https://techcrunch.com/2019/12/03/aws-launches-new-local-zone-in-la/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-518529706.jpg?w=599",
+            "publishedAt": "2019-12-03T20:20:50Z",
+            "content": "AWS announced a new local zone today in LA, designed to provide customers in southern California with a set of higher bandwidth, lower latency compute resources. It’s not a coincidence that this area is the epicenter of the entertainment industry.\r\nHaving a l… [+1123 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Devin Coldewey",
+            "title": "The remains of India's first lunar lander have been found on the Moon",
+            "description": "India's Vikram lander was very near making its proud creators the fourth country in history to touch down on the moon — but it was not to be, and the craft was lost. Now India has a bit of closure: The remains of the lander have been located on the Moon's sur…",
+            "url": "https://techcrunch.com/2019/12/03/the-remains-of-indias-first-lunar-lander-have-been-found-on-the-moon/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/vikram_impact_ratio_1100.jpg?w=621",
+            "publishedAt": "2019-12-03T20:14:48Z",
+            "content": "India’s Vikram lander was very near making its proud creators the fourth country in history to touch down on the moon but it was not to be, and the craft was lost. Now India has a bit of closure: The remains of the lander have been located on the Moon’s surfa… [+1441 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Brian Heater",
+            "title": "Verizon and AWS announce 5G Edge computing partnership",
+            "description": "Just as Qualcomm was starting to highlight its 5G plans for the coming years, Verizon CEO Hans Vestberg hit the stage at AWS re:Invent to discuss the carrier’s team up with the cloud computing giant. As part of Verizon’s (TechCrunch’s parent company, disclosu…",
+            "url": "https://techcrunch.com/2019/12/03/verizon-and-aws-announce-5g-edge-computing-partnership/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/07/GettyImages-1149809222.jpg?w=600",
+            "publishedAt": "2019-12-03T19:53:16Z",
+            "content": "Just as Qualcomm was starting to highlight its 5G plans for the coming years, Verizon CEO Hans Vestberg hit the stage at AWS re:Invent to discuss the carriers team up with the cloud computing giant.\r\nAs part of Verizons (TechCrunchs parent company, disclosure… [+1491 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Ron Miller",
+            "title": "AWS announces new enterprise search tool powered by machine learning",
+            "description": "Today at AWS re:Invent in Las Vegas, the company announced a new search tool called Kendra, which provides natural language search across a variety of content repositories using machine learning. Matt Wood, AWS VP of artificial intelligence, said the new sear…",
+            "url": "https://techcrunch.com/2019/12/03/aws-announces-new-enterprise-search-tool-powered-by-machine-learning/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/12/re-invent.jpg?w=533",
+            "publishedAt": "2019-12-03T19:44:42Z",
+            "content": "Today at AWS re:Invent in Las Vegas, the company announced a new search tool called Kendra, which provides natural language search across a variety of content repositories using machine learning.\r\nMatt Wood, AWS VP of artificial intelligence, said the new sea… [+1332 chars]"
+        }
+    ]
+}
