@@ -1,12 +1,11 @@
 'use strict';
 
 import { ExtensionContext, commands } from 'vscode';
-import { LinkStatusBar, openLink } from "./ui/Link.statusbar";
-import { HeadlineStatusBar, nextHeadline } from "./ui/Headline.statusbar";
-import { promptConfig, isCredsValid } from "./credentials";
+import { LinkStatusBar, openLink } from "./components/Link.statusbar";
+import { HeadlineStatusBar, nextHeadline } from "./components/Headline.statusbar";
+import { displayTutorial,  promptConfig } from "./display";
+import { isCredsValid } from "./credentials";
 import { updateHeadlines } from "./newsapi";
-
-
 
 export const activate = (context: ExtensionContext) : void => {
     HeadlineStatusBar.command = isCredsValid() ? 'headlines.nextHeadline' : "headlines.promptConfig";
@@ -20,10 +19,7 @@ export const activate = (context: ExtensionContext) : void => {
         commands.registerCommand('headlines.promptConfig', promptConfig));
 
     if (!isCredsValid()) {
-        HeadlineStatusBar.text = '📰 Set source and API Key';
-        HeadlineStatusBar.tooltip = 'Headlines';
-        HeadlineStatusBar.show();
-        LinkStatusBar.hide();
+        displayTutorial();
     }
     else {
         updateHeadlines();

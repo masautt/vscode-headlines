@@ -1,8 +1,19 @@
 import * as request from "request-promise";
-import { HeadlineStatusBar, updateStatus } from "./ui/Headline.statusbar";
-import { HeadlinesInfo } from "./Headlines.interface";
+import { HeadlineStatusBar, updateStatus } from "./components/Headline.statusbar";
+import { displayWarning } from "./display";
 import { getSource, getApiKey, isCredsValid } from "./credentials";
 
+interface HeadlinesInfo {
+    articles: [
+        {
+            source : {
+                name: string
+            },
+            title: string,
+            url: string
+        }
+    ];
+}
 
 export let headlinesInfo: HeadlinesInfo | null = null;
 
@@ -25,13 +36,14 @@ export const updateHeadlines = async ()  => {
             updateStatus();
         } else {
             headlinesInfo = null;
-            HeadlineStatusBar.text = '⚠️ Headlines Unavailable';
-            HeadlineStatusBar.show();
+            displayWarning();
         }
     } catch (err) {
         headlinesInfo = null;
-        HeadlineStatusBar.text = '⚠️ Headlines Unavailable';
-        HeadlineStatusBar.show();
+        displayWarning();
     }
 };
+
+
+
 
