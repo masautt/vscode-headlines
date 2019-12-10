@@ -1,7 +1,7 @@
 {
     "name": "vscode-headlines",
     "displayName": "Headlines",
-    "description": "View headlines from https://newsapi.org/ in your toolbar",
+    "description": "View headlines from https://newsapi.org/ in your status bar",
     "version": "0.0.2",
     "publisher": "masautt",
     "icon": "icon.png",
