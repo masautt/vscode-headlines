@@ -2,7 +2,7 @@
 
 Shows headlines from [NewsApi.org](https://newsapi.org) in Visual Studio Code status bar.
 
-![demo](../resources/Headlines.gif)
+![demo](https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines.gif?raw=true)
 
 ## Installation
 
