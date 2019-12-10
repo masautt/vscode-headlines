@@ -12,7 +12,7 @@ Install from [Visual Studio Code Marketplace] -->
 
 ```bash
 git clone https://github.com/masautt/vscode-headlines.git
-cd vscode-instant-weather
+cd vscode-headlines
 npm i
 npm i vsce -g
 vsce package .
@@ -20,8 +20,13 @@ vsce package .
 
 ## Prerequisites
 
-Headlines gets news info from NewsApi.org. You can get your FREE key [here](https://newsapi.org/register).
+Headlines gets news info from NewsApi.org. You can get your free key [here](https://newsapi.org/register).
 
+## Special Thanks
+
+Project based on [Sneezry's vscode-instant-weather extension](https://github.com/Sneezry/vscode-instant-weather)
+
+Free icon from [Nick Roach's](https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free) [Circle Icons pack](https://www.iconfinder.com/iconsets/circle-icons-1) on [IconFinder.com](https://www.iconfinder.com/)
 
 ## License
 
