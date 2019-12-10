@@ -21,7 +21,7 @@
     "contributes": {
         "commands": [
             {
-                "command": "headlines.updateConfig",
+                "command": "headlines.promptConfig",
                 "title": "Configurate Source and API Key",
                 "category": "Headlines"
             }

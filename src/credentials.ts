@@ -1,6 +1,7 @@
 import { workspace, ConfigurationTarget, window } from 'vscode';
 import { LinkStatusBar } from "./ui/Link.statusbar";
 import { HeadlineStatusBar } from "./ui/Headline.statusbar";
+import {updateHeadlines} from "./newsapi";
 
 export let source :string | undefined = workspace.getConfiguration('Headlines').get<string>('source');
 export let apiKey :string | undefined = workspace.getConfiguration('Headlines').get<string>('key');
@@ -23,6 +24,31 @@ export const isCredsValid = () : boolean => {
 
 export const getSource = () : string | undefined => source;
 export const getApiKey = () : string | undefined => apiKey;
+
+export const promptConfig = async () => {
+    const _source = await window.showInputBox({
+        value: getSource(),
+        ignoreFocusOut: true,
+        prompt: 'News source. i.e. techcrunch'
+    });
+    udpdateSource(_source);
+
+    const _apiKey = await window.showInputBox({
+        value: getApiKey(),
+        ignoreFocusOut: true,
+        prompt: 'API Key for newsapi.org'
+    });
+    updateApiKey(_apiKey);
+
+    if (!isCredsValid()) {
+        HeadlineStatusBar.text = '📰 Set Source and API Key';
+        HeadlineStatusBar.tooltip = 'Headlines';
+        HeadlineStatusBar.show();
+        LinkStatusBar.hide();
+    } else {
+        updateHeadlines();
+    }
+};
 
 
 
