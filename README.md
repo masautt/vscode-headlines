@@ -2,7 +2,7 @@
 
 Shows headlines from [NewsApi.org](https://newsapi.org) in Visual Studio Code status bar.
 
-<img width="620" src="https://raw.githubusercontent.com/masautt/vscode-headlines/master/resources/Headlines.PNG" />
+<img width="400" src="https://raw.githubusercontent.com/masautt/vscode-headlines/master/resources/Headlines.PNG" />
 
 ## Installation
 
@@ -27,11 +27,11 @@ You need to have an active key from NewsAPI in order for this extension to work.
 
 After installing, you should see the following on your status bar :
 
-<img width="400" src="https://i.imgur.com/YxW7KDO.png" />
+<img width="400" src="https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines2.PNG?raw=true" />
 
 Click the notice and enter your sources in the dropdown menu.
 
-<img width="400" src="https://i.imgur.com/rYG4dlJ.png" />
+<img width="400" src="https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines3.PNG?raw=true" />
 
 Add as many tech sources as you want! I usually include the following for my tech news : 
 
@@ -43,7 +43,7 @@ For a list of all NewsAPI sources, click [here](https://newsapi.org/docs/endpoin
 
 If you ever need to change these settings enter `Ctrl Shift p` and type `Headlines` :
 
-<img width="400" src="https://i.imgur.com/Ex9HxGq.png" />
+<img width="400" src="https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines4.PNG?raw=true" />
 
 
 
