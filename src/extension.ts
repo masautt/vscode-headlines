@@ -34,7 +34,7 @@ export const activate = (context: ExtensionContext) : void => {
     }));
 
     if (!source || !apiKey) {
-        articleViewBar.text = '🌎 Set source and API Key';
+        articleViewBar.text = '📰 Set source and API Key';
         articleViewBar.tooltip = 'Headlines';
         articleViewBar.show();
     }
@@ -68,7 +68,7 @@ const updateConfig = async () => {
     updateApiKey(_apiKey);
 
     if (!source || !apiKey) {
-        articleViewBar.text = 'ℹ️ Set Source and API Key';
+        articleViewBar.text = '📰 Set Source and API Key';
         articleViewBar.tooltip = 'Headlines';
         articleViewBar.show();
     } else {

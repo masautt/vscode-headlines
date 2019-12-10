@@ -2,7 +2,12 @@
     "name": "vscode-headlines",
     "displayName": "Headlines",
     "description": "View headlines from https://newsapi.org/ in your toolbar",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher": "masautt",
+    "icon": "icon.png",
+    "repository": {
+        "url": "https://github.com/masautt/vscode-headlines"
+    },
     "engines": {
         "vscode": "^1.40.0"
     },
