@@ -1,6 +1,6 @@
 # Headlines for Visual Studio Code
 
-Shows headlines from [NewsApi.org](https://newsapi.org) in Visual Studio Code status bar.
+Show headlines from [NewsApi.org](https://newsapi.org) in Visual Studio Code status bar.
 
 ![demo](https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines.gif?raw=true)
 
@@ -45,7 +45,8 @@ If you ever need to change these settings enter `Ctrl Shift p` and type `Headlin
 
 <img width="400" src="https://github.com/masautt/vscode-headlines/blob/master/resources/Headlines4.PNG?raw=true" />
 
-
+## What's New in 1.0.1?
+Open headlines in your browser by clicking the "🔗" icon
 
 ## Future Plans
 
@@ -53,7 +54,7 @@ If you ever need to change these settings enter `Ctrl Shift p` and type `Headlin
 * Toggleable Alignment : Choose where Headlines are placed on your status bar
 * Keyboard Shortcuts : Assign custom shortcuts for navigating your headlines
 * Custom Refresh Time : Choose when new headlines are requested and displayed
-* Clickable Links : Click on a headline to view the link in your browser
+* ✔️ Clickable Links : Click on a headline to view the link in your browser
 
 📰 NewsAPI Integration
 * [Top Headlines](https://newsapi.org/docs/endpoints/top-headlines) : Just grab the top headlines of the day, source agnostic
@@ -71,4 +72,4 @@ Free icon from [Nick Roach's](https://www.elegantthemes.com/blog/freebie-of-the-
 
 ## License
 
-MIT License.
+[MIT License](https://opensource.org/licenses/MIT)
