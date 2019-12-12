@@ -1,20 +1,7 @@
 import { window } from "vscode";
-import {updateHeadlines} from "./newsapi";
-import {HeadlineStatusBar} from "./components/Headline.statusbar";
-import {LinkStatusBar} from "./components/Link.statusbar";
+import {updateHeadlines} from "./requests";
 import { getSource, getApiKey, udpdateSource, updateApiKey, isCredsValid } from "./credentials";
-
-export const displayTutorial = () => {
-    HeadlineStatusBar.text = '📰 Set source and API Key';
-    HeadlineStatusBar.show();
-    LinkStatusBar.hide();
-};
-
-export const displayWarning = () => {
-    HeadlineStatusBar.text = '⚠️ Headlines Unavailable';
-    HeadlineStatusBar.show();
-    LinkStatusBar.hide();
-};
+import { displayTutorial } from "./displays";
 
 export const promptConfig = async () => {
     const _source = await window.showInputBox({
@@ -36,4 +23,3 @@ export const promptConfig = async () => {
         updateHeadlines();
     }
 };
-

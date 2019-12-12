@@ -1,5 +1,5 @@
 import { StatusBarAlignment, window } from 'vscode';
-import {headlinesInfo} from "../newsapi";
+import {headlinesInfo} from "../requests";
 import {env, Uri} from "vscode";
 import {articleNum} from "./Headline.statusbar";
 export const LinkStatusBar = window.createStatusBarItem(StatusBarAlignment.Left, -9);

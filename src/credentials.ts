@@ -1,8 +1,7 @@
 import { workspace, ConfigurationTarget } from 'vscode';
 
-
-export let source :string | undefined = workspace.getConfiguration('Headlines').get<string>('source');
-export let apiKey :string | undefined = workspace.getConfiguration('Headlines').get<string>('key');
+let source :string | undefined = workspace.getConfiguration('Headlines').get<string>('source');
+let apiKey :string | undefined = workspace.getConfiguration('Headlines').get<string>('key');
 
 export const udpdateSource = (newSource: string | undefined) : void => {
     source = newSource;
@@ -14,9 +13,10 @@ export const updateApiKey = (newKey: string | undefined) : void =>  {
     workspace.getConfiguration('Headlines').update('key', newKey, ConfigurationTarget.Global);
 };
 
-
 export const isCredsValid = () : boolean => {
-    if (source !== undefined && apiKey !== undefined && source !== "" && apiKey !== "") {return true;}
+    if (source !== undefined && apiKey !== undefined && source !== "" && apiKey !== "") {
+        return true;
+    }
     return false;
 };
 

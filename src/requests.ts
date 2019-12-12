@@ -1,21 +1,10 @@
 import * as request from "request-promise";
 import { HeadlineStatusBar, updateStatus } from "./components/Headline.statusbar";
-import { displayWarning } from "./display";
+import { displayWarning } from "./displays";
 import { getSource, getApiKey, isCredsValid } from "./credentials";
+import { HeadlinesNode } from "./data/Headlines.node";
 
-interface HeadlinesInfo {
-    articles: [
-        {
-            source : {
-                name: string
-            },
-            title: string,
-            url: string
-        }
-    ];
-}
-
-export let headlinesInfo: HeadlinesInfo | null = null;
+export let headlinesInfo: HeadlinesNode | null = null;
 
 export const updateHeadlines = async ()  => {
     if (!isCredsValid()) {
@@ -29,7 +18,7 @@ export const updateHeadlines = async ()  => {
         const info = await request({
             uri: apiUrl,
             json: true
-        }) as HeadlinesInfo;
+        }) as HeadlinesNode;
 
         if (info) {
             headlinesInfo = info;

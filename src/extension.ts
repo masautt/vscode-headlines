@@ -3,9 +3,10 @@
 import { ExtensionContext, commands } from 'vscode';
 import { LinkStatusBar, openLink } from "./components/Link.statusbar";
 import { HeadlineStatusBar, nextHeadline } from "./components/Headline.statusbar";
-import { displayTutorial,  promptConfig } from "./display";
+import { displayTutorial } from "./displays";
+import { promptConfig } from "./prompts";
 import { isCredsValid } from "./credentials";
-import { updateHeadlines } from "./newsapi";
+import { updateHeadlines } from "./requests";
 
 export const activate = (context: ExtensionContext) : void => {
     HeadlineStatusBar.command = isCredsValid() ? 'headlines.nextHeadline' : "headlines.promptConfig";
@@ -16,7 +17,8 @@ export const activate = (context: ExtensionContext) : void => {
         LinkStatusBar,
         commands.registerCommand('headlines.nextHeadline', nextHeadline),
         commands.registerCommand('headlines.openLink', openLink),
-        commands.registerCommand('headlines.promptConfig', promptConfig));
+        commands.registerCommand('headlines.promptConfig', promptConfig)
+    );
 
     if (!isCredsValid()) {
         displayTutorial();

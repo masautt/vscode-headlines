@@ -1,8 +1,8 @@
 import { StatusBarAlignment, window, } from 'vscode';
 import { LinkStatusBar } from "./Link.statusbar";
-import { headlinesInfo } from "../newsapi";
+import { headlinesInfo } from "../requests";
 import { isCredsValid } from "../credentials";
-import { promptConfig } from "../display";
+import { promptConfig } from "../prompts";
 
 export const HeadlineStatusBar  = window.createStatusBarItem(StatusBarAlignment.Left, -10);
 
